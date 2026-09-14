@@ -9,10 +9,9 @@ it's my fingerprint (40 hex characters, no spaces). Decrypt it:
 
     gpg -d videtur.txt
 
-Inside is where we talk when it has to be quiet. Say hello there.
-Ask, and the way forward will find you.
+Inside is a pointer to the next drop. Follow it.
 
 **`final.txt`** — also sealed, but the fingerprint won't open this one.
-Its word only travels through the quiet channel above. Come back when you have it:
+Its passphrase waits at the drop above. Come back when you have it:
 
     gpg -d final.txt
